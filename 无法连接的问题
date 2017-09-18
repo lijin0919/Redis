@@ -1,0 +1,3 @@
+如果出现：Could not get a resource from the pool
+将redis.conf文件中的bind 127.0.0.1注释掉
+sudo gedit /etc/redis/redis.conf
